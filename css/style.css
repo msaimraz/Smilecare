@@ -69,7 +69,7 @@
     
     .nav-list {
         margin: 0 5px;
-        padding: 0 20px;
+        padding: 40px 20px;
         font-size: 18px;
         text-transform: uppercase;
     }
@@ -78,6 +78,7 @@
         font-size: 18px;
         text-transform: uppercase;
         margin: 10px 0;
+        padding: 2px;
     }
     
     .nav .nav-list a:hover {
@@ -93,8 +94,8 @@
         list-style: none;
         position: absolute;
         display: none;
-        background-color: #fff;
-        /* margin: 20px 0; */
+        background-color: #e7e5e5e8;
+        margin: 30px -30px;
     }
     
     .sub-nav-inner .nav-list2 a {
