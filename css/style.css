@@ -25,17 +25,6 @@
     .btn:hover {
         background-color: #030541;
         cursor: pointer;
-        transform: scale(0.9);
-        animation: btn 2s ease-out;
-    }
-    
-    @keyframes btn {
-        25% {
-            transform: scale(1.1)
-        }
-        75% {
-            transform: scale(0.9)
-        }
     }
     /* Header */
     /* NavBar */
@@ -353,7 +342,7 @@
         font-size: 14px;
         letter-spacing: 2px;
         word-spacing: 2px;
-        line-height: 4;
+        line-height: 2;
         border-bottom: 1px solid #472DFF;
         padding: 5px;
         color: #472DFF;
@@ -912,6 +901,24 @@
     
     .footer-box2 li a:hover {
         color: #39c3b9;
+    }
+    
+    .footer-box2 i {
+        margin: 0 40px 0 0;
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .footer-contact {
+        width: 25%;
+    }
+    
+    .footer-contact ul {
+        text-align: start;
+    }
+    
+    .footer-contact ul li {
+        margin: 0 26px;
     }
     
     .footer-bottom {
