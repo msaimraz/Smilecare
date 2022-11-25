@@ -35,9 +35,8 @@
         height: 100px;
         align-items: center;
         justify-content: space-around;
-        backdrop-filter: saturate(180%) blur(20px);
+        /* backdrop-filter: saturate(180%) blur(20px); */
         position: fixed;
-        background-color: #482AFD24;
         z-index: 99;
     }
     /* Logo */
@@ -199,10 +198,11 @@
     }
     
     .container-box {
-        width: 24%;
+        width: 24.3%;
         display: inline-block;
         border-right: 1px solid #5a5a5a4d;
         padding: 15px 3px;
+        margin: 0 -3px;
     }
     
     .container-box:hover {
@@ -391,7 +391,7 @@
         top: 25px;
     }
     
-    .sec1-Image1-box h3 {
+    .sec1-Image1-box h1 {
         display: inline-block;
         color: #fff;
     }
