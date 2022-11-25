@@ -9,7 +9,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -93,15 +96,15 @@
         <!-- Banner -->
         <div class="banner">
             <div class="banner-inner">
-                <div class="banner-content">
+                <div class="banner-content" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                     <h6>WELCOME TO SMILECARE DENTAL</h6>
                     <h1>Dental Care </h1>
                     <h3>SERVING PATIENTS OF ALL AGES </h3>
                     <div class="btn banner-btn">Make An Appoinment</div>
                 </div>
                 <div class="banner-image">
-                    <img class="banner-shadow" src="./webImages/BG-03.png" alt="Shadow">
-                    <img class="banner-doctor-img" src="./webImages/hero03-1024x898.png" alt="Doctor Image">
+                    <img data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="banner-shadow" src="./webImages/BG-03.png" alt="Shadow">
+                    <img data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="banner-doctor-img" src="./webImages/hero03-1024x898.png" alt="Doctor Image">
                 </div>
             </div>
         </div>
@@ -172,7 +175,7 @@
         </div>
         <div class="sec-bg">
             <div class="sec1-container">
-                <div class="sec1-title">
+                <div class="sec1-title" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                     <h6>WE ARE COMPASSIONATE DENTAL PROFESSIONALS </h6>
                     <h3>We Care About Your <br> Dental Health </h3>
                     <p></p>
@@ -212,8 +215,8 @@
                 <img src="./webImages/smilejpg06-683x1024.jpg" alt="">
             </div>
             <div class="sec2-content">
-                <h6>WE ARE COMPASSIONATE DENTAL PROFESSIONALS </h6>
-                <h3>We Care About Your <br> Dental Health </h3>
+                <h6 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">WE ARE COMPASSIONATE DENTAL PROFESSIONALS </h6>
+                <h3 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">We Care About Your <br> Dental Health </h3>
                 <p class="border"></p>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit, elementum pretium penatibus porta phasellus magna mauris sagittis, accumsan placerat sem nisi torquent non. Tempus egestas praesent conubia aliquet habitasse, ante eu ullamcorper
                     neque ultricies risus quam mattis dui tempor nam. </p>
@@ -403,9 +406,9 @@
                         <img src="./webImages/smilepng07-1024x600.png" alt="">
                     </div>
                 </div>
-                <div class="review-slider">
-                    <div class="review-slider-box">
-                        <div class="review-slider1">
+                <div class="review-slider swiper mySwiper">
+                    <div class="review-slider-box swiper-wrapper">
+                        <div class="review-slider1 swiper-slide">
                             <div class="review-slider-top">
                                 <div class="review-icons">
                                     <i class="fa-solid fa-star"></i>
@@ -426,7 +429,7 @@
                                 <i class="fa-sharp fa-solid fa-quote-right"></i>
                             </div>
                         </div>
-                        <div class="review-slider1">
+                        <div class="review-slider1 swiper-slide">
                             <div class="review-slider-top">
                                 <div class="review-icons">
                                     <i class="fa-solid fa-star"></i>
@@ -447,6 +450,49 @@
                                 <i class="fa-sharp fa-solid fa-quote-right"></i>
                             </div>
                         </div>
+                        <div class="review-slider1 swiper-slide">
+                            <div class="review-slider-top">
+                                <div class="review-icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="review-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing , ridiculus facilisis conubia euismod rhoncus primis congue hac blandit aenean fames.</p>
+                                </div>
+                            </div>
+                            <div class="review-slider-bottom">
+                                <div class="review-img">
+                                    <img src="./webImages/review-6.png" alt="review1">
+                                </div>
+                                <h3>Emma Stone</h3>
+                                <i class="fa-sharp fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="review-slider1 swiper-slide">
+                            <div class="review-slider-top">
+                                <div class="review-icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="review-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing , ridiculus facilisis conubia euismod rhoncus primis congue hac blandit aenean fames.</p>
+                                </div>
+                            </div>
+                            <div class="review-slider-bottom">
+                                <div class="review-img">
+                                    <img src="./webImages/review-7.png" alt="review1">
+                                </div>
+                                <h3>Emma Stone</h3>
+                                <i class="fa-sharp fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>
@@ -565,6 +611,11 @@
     </footer>
 
     <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./js/slick.min.js"></script>
     <script src="./js/custom.js"></script>
 </body>
 
