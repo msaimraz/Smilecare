@@ -1,11 +1,7 @@
-AOS.init();
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    autoplay: true,
-    spaceBetween: 20,
-
-});
-$(document).ready(function() {
+$(document).ready(function(){
+    $('.hamburger').click(function(){
+        $('nav').toggleClass('active')
+    });
     let navScroll = 0;
     $(document).scroll(function() {
         navScroll = $(this).scrollTop();
@@ -22,5 +18,5 @@ $(document).ready(function() {
             });
 
         }
-    })
+    });
 });
